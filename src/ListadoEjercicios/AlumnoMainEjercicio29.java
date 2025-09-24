@@ -10,7 +10,7 @@ public class AlumnoMainEjercicio29 {
         alumno1.anadirNota(7.0);
         alumno1.anadirNota(9.2);
         alumno1.anadirNota(10);
-
+        //fffff
         System.out.println(alumno1);
         System.out.println("Nota media: " + alumno1.calcularNota());
 	}
