@@ -18,7 +18,7 @@ public class Ejercicio33 {
         grupos.add("2DAM"); // duplicado, no se añade
         
         for(String curso:grupos) {
-        	System.out.println(curso);
+        	System.out.println(curso); //ff
         }
 	}
 
