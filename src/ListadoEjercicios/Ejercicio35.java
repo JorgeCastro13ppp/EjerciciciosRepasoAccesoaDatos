@@ -13,7 +13,7 @@ public class Ejercicio35 {
         claveProfesor.put("IFC02", "Juan Pérez");
         claveProfesor.put("FOL01", "María López");//
         claveProfesor.put("IFC08", "Carlos Ruiz");//
-        claveProfesor.put("ING06", "Ana Torres");
+        claveProfesor.put("ING06", "Ana Torres");//
         claveProfesor.put("FPIFC01", "Laura Gómez");
 
         // Intentamos meter duplicado en la clave "IFC02"
