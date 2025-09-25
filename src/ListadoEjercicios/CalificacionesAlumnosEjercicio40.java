@@ -46,10 +46,7 @@ public class CalificacionesAlumnosEjercicio40 {
 		}else {
 			System.out.println("Lista de alumnos:");
 			for(AlumnoEjercicio29 alumno: listaAlumnosCalificaciones.values()) {
-				System.out.println("-Expediente: "+alumno.getExpediente());
-				System.out.println("-Nombre: "+alumno.getNombre());
-				System.out.println("-Apellidos: "+alumno.getApellidos());
-				System.out.println("-Notas: "+alumno.getNotas());
+				System.out.println(alumno.toString());
 			}
 		}
 	}

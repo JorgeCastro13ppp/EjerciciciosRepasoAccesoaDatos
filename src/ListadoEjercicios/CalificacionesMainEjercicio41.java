@@ -53,9 +53,10 @@ public class CalificacionesMainEjercicio41 {
 					AlumnoEjercicio29 alumnoNota = gestorMain.buscarAlumno(expNota);
 					if(alumnoNota!=null) {
 						System.out.println("Introduce la nota:");
-						double nota = sc.nextDouble();
-						sc.nextLine();
-						alumnoNota.anadirNota(nota);
+						String nota = sc.nextLine();
+						double notaParseada = Double.parseDouble(nota.replace(",",".")); //
+						
+						alumnoNota.anadirNota(notaParseada);
 						System.out.println("Nota añadida.");
 					}else {
 						System.out.println("Alumno no encontrado.");
