@@ -29,7 +29,7 @@ public class Ejercicio35 {
             System.out.println("3. Listar");
             System.out.println("4. Salir");
             System.out.print("Elige una opción: ");
-            while(sc.hasNextInt()) {
+            while(!sc.hasNextInt()) {
             	System.out.println("Error, introduce un número del 1-4.");
             	sc.next(); //Limpiamos la entrada
             	System.out.println("Elige una opción: ");
